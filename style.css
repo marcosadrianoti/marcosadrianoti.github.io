@@ -14,7 +14,9 @@ div {
 }
 
 .descricao_container {
-    height: 310px;
+    padding-left: 250px;
+    padding-top: 65px;
+    height: 245px;
 }
 
 
