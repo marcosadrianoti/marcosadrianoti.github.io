@@ -1,0 +1,31 @@
+#nome {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#quem_sou, p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #F2E3BC;
+}
+
+.element_1 {
+    font-size: x-small;
+}
+
+.element_2 {
+    font-size: smaller;
+}
+
+.element_3 {
+    font-size: small;
+}
+
+.element_4 {
+    font-size: medium;
+}
+
+.element_5 {
+    font-size: large;
+}
