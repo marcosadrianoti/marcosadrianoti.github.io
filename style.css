@@ -6,6 +6,10 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+em, #onde_moro {
+    color:darkred;
+}
+
 body {
     background-color: #F2E3BC;
 }
