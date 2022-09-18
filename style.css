@@ -21,6 +21,7 @@ div {
 
 #nome {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 #quem_sou, p {
