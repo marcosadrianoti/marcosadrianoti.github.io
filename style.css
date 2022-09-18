@@ -9,10 +9,12 @@ div {
 .foto_container {
     float: left;
     height: 300px;
+    padding: 5px;
+    background-color: #854121;
 }
 
 .descricao_container {
-    height: 300px;
+    height: 310px;
 }
 
 
