@@ -1,5 +1,26 @@
+body {
+    background-color: #F2E3BC;
+}
+
+em, #onde_moro {
+    color:darkred;
+}
+
 #foto {
     height: 300px;
+}
+
+#lista-habilidades li:nth-child(odd) {
+    background-color: #96BBBB;
+}
+
+#nome {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#quem_sou, p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .foto_container {
@@ -13,31 +34,6 @@
     padding-left: 250px;
     padding-top: 65px;
     height: 245px;
-}
-
-#lista-habilidades li:nth-child(odd) {
-    background-color: #96BBBB;
-}
-
-
-
-
-
-#nome {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
-
-#quem_sou, p {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-em, #onde_moro {
-    color:darkred;
-}
-
-body {
-    background-color: #F2E3BC;
 }
 
 .element_1 {
