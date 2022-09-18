@@ -1,7 +1,3 @@
-div {
-    border: 2px solid red;
-}
-
 #foto {
     height: 300px;
 }
@@ -17,6 +13,10 @@ div {
     padding-left: 250px;
     padding-top: 65px;
     height: 245px;
+}
+
+#lista-habilidades li:nth-child(odd) {
+    background-color: #96BBBB;
 }
 
 
