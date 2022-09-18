@@ -3,48 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Portifólio</title>
-    <style>
-        #nome {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        #quem_sou, p {
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-        body {
-            background-color: #F2E3BC;
-        }
-
-        .element_1 {
-            font-size: x-small;
-        }
-        .element_2 {
-            font-size: smaller;
-        }
-        .element_3 {
-            font-size: small;
-        }
-        .element_4 {
-            font-size: medium;
-        }
-        .element_5 {
-            font-size: large;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="nome">Marcos Adriano Cruz de Souza</h1>
-    <br>
-    <br>
-    <img id="foto" src="eu-atual.jpeg" alt="Marcos Adriano sorrindo!" width="300px">
-    <br>
-    <br>
-    <h3 id="quem_sou">Quem sou eu?</h3>
-    <p>Sou um cara tranquilo e sei que há tempo para tudo neste mundo, mas sempre com muita <em style="color:darkred;">garra e determinação</em>. Apaixonado por tecnologia e tenho 55 anos. <strong style="color: brown;">Brasileiro, moro em Anápolis - Goiás</strong>
-    </p>
-    <br>
-    <br>
-    <h3 id="habilidades">Algumas habilidades que possuo são:</h3>
-    <ul>
+    <div>
+        <h1 id="nome">
+            Marcos Adriano Cruz de Souza
+        </h1>
+    </div>
+    <div class="foto_container">
+        <img id="foto" src="eu-atual.jpeg" alt="Marcos Adriano sorrindo!">
+    </div>
+    <div class="descricao_container">
+        <h3 id="quem_sou">
+            Quem sou eu?
+        </h3>
+        <p id="descricao">
+            Sou um cara tranquilo e sei que há tempo para tudo neste mundo, mas sempre com muita <em>garra e determinação</em>. Apaixonado por tecnologia e tenho 55 anos.</p>
+        <p id="onde_moro">
+            <strong>Brasileiro, moro em Anápolis - Goiás</strong>
+        </p>
+    </div>
+    <h3 id="habilidades">
+        Algumas habilidades que possuo são:
+    </h3>
+    <ul id="lista-habilidades">
         <li class="element_1">Tenho muita empatia</li>
         <li class="element_2">Valorizo muito o trabalho em equipe</li>
         <li class="element_3"><strong> Aprendo com facilidade</strong></li>
@@ -55,7 +38,6 @@
     <br>
     <a href="http://blog.betrybe.com/" target="_blank">Gosto do blog da Trybe</a>
     <br>
-    <br>
     <h3>Índice</h3>
     <ul>
         <li><a href="#nome">Meu nome</a></li>
@@ -64,12 +46,9 @@
         
     </ul>
     
-    
-    
-    
-    
 </body>
 </html>
+
 <!-- Bloco 3.1 -->
     <!-- Seu nome completo; -->
     <!-- Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando; -->
@@ -85,3 +64,11 @@
     <!-- Defina uma cor base de background do seu Portfólio Web; -->
     <!-- Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora; -->
     <!-- Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos; -->
+
+<!-- Bloco 3.3 -->
+    <!-- Coloque seu nome, sua foto e a descrição que você escreveu sobre você dentro de blocos; -->
+    <!-- A descrição deve ficar ao lado da foto; -->
+    <!-- Centralize seu nome na página; -->
+    <!-- Use padding e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página; -->
+    <!-- Adicione margin e padding nos elementos que julgar necessário; -->
+    <!-- Coloque estilo somente nos itens ímpares da lista das suas habilidades. -->

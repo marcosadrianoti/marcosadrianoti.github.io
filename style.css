@@ -1,0 +1,57 @@
+body {
+    background-color: #F2E3BC;
+}
+
+em, #onde_moro {
+    color:darkred;
+}
+
+#foto {
+    height: 300px;
+}
+
+#lista-habilidades li:nth-child(odd) {
+    background-color: #96BBBB;
+}
+
+#nome {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#quem_sou, p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.foto_container {
+    float: left;
+    height: 300px;
+    padding: 5px;
+    background-color: #854121;
+}
+
+.descricao_container {
+    padding-left: 250px;
+    padding-top: 65px;
+    height: 245px;
+}
+
+.element_1 {
+    font-size: x-small;
+}
+
+.element_2 {
+    font-size: smaller;
+}
+
+.element_3 {
+    font-size: small;
+}
+
+.element_4 {
+    font-size: medium;
+}
+
+.element_5 {
+    font-size: large;
+}
