@@ -1,74 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Portifólio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="home" id="home">
+      <div class="top">
+        <nav>
+          <a href="#home">HOME</a>
+          <a href="#about">SOBRE</a>
+          <a href="#projects">PROJETOS</a>
+          <a href="#contact">CONTATO</a>
+        </nav>
+        <img src="marcos-adriano.png" alt="Foto do Marcos Adriano" />
+      </div>
+
+      <div id="portifolio">
+        <h1>PORTIFÓLIO</h1>
+      </div>
+      <div class="title">
+        <span class="meu-nome">MEU NOME É</span>
+        <div class="nome">
+          <span class="marcos">MARCOS</span>
+          <span class="adriano">ADRIANO</span>
+        </div>
+        <div class="terminal">
+          <span>></span>
+          <span>></span>
+          <span>> SOU DESENVOLVEDOR WEB &#x25AF;</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about"></section>
+    <section class="projects" id="projects"></section>
+    <section class="contact" id="contact"></section>
+    <footer></footer>
+
     <div>
-        <h1 id="nome">
-            Marcos Adriano Cruz de Souza
-        </h1>
+      <h1 id="nome">Marcos Adriano Cruz de Souza</h1>
     </div>
     <div class="foto_container">
-        <img id="foto" src="eu-atual.jpeg" alt="Marcos Adriano sorrindo!">
+      <img id="foto" src="eu-atual.jpeg" alt="Marcos Adriano sorrindo!" />
     </div>
     <div class="descricao_container">
-        <h3 id="quem_sou">
-            Quem sou eu?
-        </h3>
-        <p id="descricao">
-            Sou um cara tranquilo e sei que há tempo para tudo neste mundo, mas sempre com muita <em>garra e determinação</em>. Apaixonado por tecnologia e tenho 55 anos.</p>
-        <p id="onde_moro">
-            <strong>Brasileiro, moro em Anápolis - Goiás</strong>
-        </p>
+      <h3 id="quem_sou">Quem sou eu?</h3>
+      <p id="descricao">
+        Sou um cara tranquilo e sei que há tempo para tudo neste mundo, mas
+        sempre com muita <em>garra e determinação</em>. Apaixonado por
+        tecnologia e tenho 55 anos.
+      </p>
+      <p id="onde_moro">
+        <strong>Brasileiro, moro em Anápolis - Goiás</strong>
+      </p>
     </div>
-    <h3 id="habilidades">
-        Algumas habilidades que possuo são:
-    </h3>
+    <h3 id="habilidades">Algumas habilidades que possuo são:</h3>
     <ul id="lista-habilidades">
-        <li class="element_1">Tenho muita empatia</li>
-        <li class="element_2">Valorizo muito o trabalho em equipe</li>
-        <li class="element_3"><strong> Aprendo com facilidade</strong></li>
-        <li class="element_4">Gosto de <strong>ensinar</strong></li>
-        <li class="element_5">Tenho <strong>experiência em liderar</strong>, não chefiar!</li>
+      <li class="element_1">Tenho muita empatia</li>
+      <li class="element_2">Valorizo muito o trabalho em equipe</li>
+      <li class="element_3"><strong> Aprendo com facilidade</strong></li>
+      <li class="element_4">Gosto de <strong>ensinar</strong></li>
+      <li class="element_5">
+        Tenho <strong>experiência em liderar</strong>, não chefiar!
+      </li>
     </ul>
     <a href="#foto">Ver minha foto</a>
-    <br>
-    <a href="http://blog.betrybe.com/" target="_blank">Gosto do blog da Trybe</a>
-    <br>
+    <br />
+    <a href="http://blog.betrybe.com/" target="_blank"
+      >Gosto do blog da Trybe</a
+    >
+    <br />
+    <button type="button" class="myBtn" id="myBtn">Teste</button>
     <h3>Índice</h3>
+
     <ul>
-        <li><a href="#nome">Meu nome</a></li>
-        <li><a href="#quem_sou">Quem sou eu</a></li>
-        <li><a href="#habilidades">Algumas habilidades</a></li>
-        
+      <li><a href="#nome">Meu nome</a></li>
+      <li><a href="#quem_sou">Quem sou eu</a></li>
+      <li><a href="#habilidades">Algumas habilidades</a></li>
     </ul>
-    
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
 
 <!-- Bloco 3.1 -->
-    <!-- Seu nome completo; -->
-    <!-- Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando; -->
-    <!-- Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora; -->
-    <!-- Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha; -->
-    <!-- Um link interno para a sua foto; -->
-    <!-- Um link externo para algum blog de que você goste, que abra em uma nova aba; -->
-    <!-- Um índice com links internos para as diferentes seções do seu portfólio. -->
-    <!-- Partes do seu portfólio destacadas com negrito e/ou itálico; -->
+<!-- Seu nome completo; -->
+<!-- Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando; -->
+<!-- Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora; -->
+<!-- Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha; -->
+<!-- Um link interno para a sua foto; -->
+<!-- Um link externo para algum blog de que você goste, que abra em uma nova aba; -->
+<!-- Um índice com links internos para as diferentes seções do seu portfólio. -->
+<!-- Partes do seu portfólio destacadas com negrito e/ou itálico; -->
 
 <!-- Bloco 3.2 -->
-    <!-- Defina fontes diferentes para o seu nome e para a descrição que você criou; -->
-    <!-- Defina uma cor base de background do seu Portfólio Web; -->
-    <!-- Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora; -->
-    <!-- Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos; -->
+<!-- Defina fontes diferentes para o seu nome e para a descrição que você criou; -->
+<!-- Defina uma cor base de background do seu Portfólio Web; -->
+<!-- Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora; -->
+<!-- Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos; -->
 
 <!-- Bloco 3.3 -->
-    <!-- Coloque seu nome, sua foto e a descrição que você escreveu sobre você dentro de blocos; -->
-    <!-- A descrição deve ficar ao lado da foto; -->
-    <!-- Centralize seu nome na página; -->
-    <!-- Use padding e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página; -->
-    <!-- Adicione margin e padding nos elementos que julgar necessário; -->
-    <!-- Coloque estilo somente nos itens ímpares da lista das suas habilidades. -->
+<!-- Coloque seu nome, sua foto e a descrição que você escreveu sobre você dentro de blocos; -->
+<!-- A descrição deve ficar ao lado da foto; -->
+<!-- Centralize seu nome na página; -->
+<!-- Use padding e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página; -->
+<!-- Adicione margin e padding nos elementos que julgar necessário; -->
+<!-- Coloque estilo somente nos itens ímpares da lista das suas habilidades. -->

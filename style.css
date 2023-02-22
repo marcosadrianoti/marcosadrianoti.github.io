@@ -1,6 +1,121 @@
-body {
-    background-color: #F2E3BC;
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
 }
+
+body {
+    background-color: #0B0B0B;
+    background-image: url("fundo.png");
+    margin-left: 3%;
+    margin-top: 3%;
+    font-family: 'Inter', sans-serif;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #625F5F;
+    height: 60px;
+    width: 100%;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    margin-left: 30px;
+}
+
+.home {
+    display: flex;
+    margin-right: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    background-color: transparent;
+    /* border: solid 1px red; */
+    margin-left: 39%;
+    margin-top: 22%;
+    width: 50%;
+    height: 350px;
+}
+
+.meu-nome, .terminal{
+    color:#ffffff;
+    font-weight: lighter;
+    /* font-stretch: ultra-expanded; */
+    font-size: 4rem;
+    margin-left: 5px;
+}
+
+.nome {
+    display: flex;
+    justify-content: space-between;
+}
+
+.marcos {
+    color: #0B0B0B;
+    font-weight: bolder;
+    /* font-size: 105px; */
+    font-size: 6rem;
+    /* font-size: 70; */
+    margin-left: 0;
+}
+
+.adriano {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 6rem;
+}
+
+.terminal {
+    display: flex;
+    flex-direction: column;
+    background-color: #36103D;
+    /* color: #ffffff; */
+    width: 80%;
+    color:#ffffff;
+    font-weight: lighter;
+    /* font-stretch: ultra-expanded; */
+    font-size: 2rem;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+#portifolio {
+    background-color: #242323;
+    font-size: larger;
+    padding-top: 15px;
+    margin-right: 3%;
+    text-align: center;
+    color: #ffffff;
+    width: 30%;
+}
+
+
+
+
+
+
+
+
 
 em, #onde_moro {
     color:darkred;
