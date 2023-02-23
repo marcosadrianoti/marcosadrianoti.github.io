@@ -3,18 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <title>Portifólio</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
   </head>
   <body>
     <section class="home" id="home">
-      <div class="top">
+      <div class="landing">
         <nav>
           <a href="#home">HOME</a>
           <a href="#about">SOBRE</a>
+          <a href="#skills">HABILIDADES</a>
           <a href="#projects">PROJETOS</a>
           <a href="#contact">CONTATO</a>
         </nav>
-        <img src="./images/marcos-adriano.png" alt="Foto do Marcos Adriano" />
+        <img
+          src="./src/images/marcos-adriano.png"
+          alt="Foto do Marcos Adriano"
+        />
       </div>
 
       <div id="portifolio">
@@ -34,76 +38,67 @@
       </div>
     </section>
 
-    <section class="about" id="about"></section>
+    <section class="about" id="about">
+      <div class="about-container">
+        <div class="terminal">
+          <span>></span>
+          <span>> Olá &#x25AF;</span>
+        </div>
+        <article>
+          <p>
+            Como desenvolvedor web júnior, meu objetivo é aplicar os
+            conhecimentos adquiridos em programação e design para criar soluções
+            eficientes e atraentes na web. Tenho experiência em linguagens como
+            HTML, CSS e JavaScript, além de frameworks como o React. Estou
+            ansioso para aprender novas tecnologias e aprimorar minhas
+            habilidades. Além disso, valorizo a colaboração em equipe. Estou
+            sempre disposto a aprender com meus colegas e a contribuir com
+            minhas próprias ideias
+          </p>
+          <p>
+            Durante meus estudos em programação, tive a oportunidade de
+            desenvolver projetos práticos. Essas experiências me ensinaram a
+            importância de um bom planejamento, colaboração com a equipe e
+            atenção aos detalhes para garantir que as soluções finais sejam
+            bem-sucedidas.
+          </p>
+          <p>
+            Sou um profissional proativo, que busca soluções criativas para
+            resolver problemas e que trabalha com dedicação e comprometimento.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="skills-container">
+        <div class="terminal">
+          <span>></span>
+          <span>> Habilidades &#x25AF;</span>
+        </div>
+        <div class="icons-container">
+          <label class="icon" for="img-icon">
+            <img
+              class="img-icon"
+              id="img-icon"
+              src="./src/images/icons/Github-Dark.svg"
+            />
+            GitHub
+          </label>
+          <label for="icon">
+            <img class="icon" src="./src/images/icons/Github-Dark.svg" />
+            GitHub
+          </label>
+        </div>
+      </div>
+    </section>
+
     <section class="projects" id="projects"></section>
     <section class="contact" id="contact"></section>
     <footer></footer>
 
-    <div>
-      <h1 id="nome">Marcos Adriano Cruz de Souza</h1>
-    </div>
-    <div class="foto_container">
-      <img id="foto" src="eu-atual.jpeg" alt="Marcos Adriano sorrindo!" />
-    </div>
-    <div class="descricao_container">
-      <h3 id="quem_sou">Quem sou eu?</h3>
-      <p id="descricao">
-        Sou um cara tranquilo e sei que há tempo para tudo neste mundo, mas
-        sempre com muita <em>garra e determinação</em>. Apaixonado por
-        tecnologia e tenho 55 anos.
-      </p>
-      <p id="onde_moro">
-        <strong>Brasileiro, moro em Anápolis - Goiás</strong>
-      </p>
-    </div>
-    <h3 id="habilidades">Algumas habilidades que possuo são:</h3>
-    <ul id="lista-habilidades">
-      <li class="element_1">Tenho muita empatia</li>
-      <li class="element_2">Valorizo muito o trabalho em equipe</li>
-      <li class="element_3"><strong> Aprendo com facilidade</strong></li>
-      <li class="element_4">Gosto de <strong>ensinar</strong></li>
-      <li class="element_5">
-        Tenho <strong>experiência em liderar</strong>, não chefiar!
-      </li>
-    </ul>
-    <a href="#foto">Ver minha foto</a>
-    <br />
-    <a href="http://blog.betrybe.com/" target="_blank"
-      >Gosto do blog da Trybe</a
-    >
-    <br />
-    <button type="button" class="myBtn" id="myBtn">Teste</button>
-    <h3>Índice</h3>
+    <!-- <button type="button" class="myBtn" id="myBtn">Teste</button> -->
 
-    <ul>
-      <li><a href="#nome">Meu nome</a></li>
-      <li><a href="#quem_sou">Quem sou eu</a></li>
-      <li><a href="#habilidades">Algumas habilidades</a></li>
-    </ul>
-    <script src="./scripts/index.js"></script>
+    <script src="./src/scripts/index.js"></script>
   </body>
 </html>
-
-<!-- Bloco 3.1 -->
-<!-- Seu nome completo; -->
-<!-- Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando; -->
-<!-- Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora; -->
-<!-- Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha; -->
-<!-- Um link interno para a sua foto; -->
-<!-- Um link externo para algum blog de que você goste, que abra em uma nova aba; -->
-<!-- Um índice com links internos para as diferentes seções do seu portfólio. -->
-<!-- Partes do seu portfólio destacadas com negrito e/ou itálico; -->
-
-<!-- Bloco 3.2 -->
-<!-- Defina fontes diferentes para o seu nome e para a descrição que você criou; -->
-<!-- Defina uma cor base de background do seu Portfólio Web; -->
-<!-- Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora; -->
-<!-- Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos; -->
-
-<!-- Bloco 3.3 -->
-<!-- Coloque seu nome, sua foto e a descrição que você escreveu sobre você dentro de blocos; -->
-<!-- A descrição deve ficar ao lado da foto; -->
-<!-- Centralize seu nome na página; -->
-<!-- Use padding e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página; -->
-<!-- Adicione margin e padding nos elementos que julgar necessário; -->
-<!-- Coloque estilo somente nos itens ímpares da lista das suas habilidades. -->
