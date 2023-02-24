@@ -20,72 +20,72 @@ export const portifolio = {
   skills: [
     {
       name: 'HTML',
-      src: '.src/images/icons/html.svg',
+      src: './src/images/icons/html.svg',
       link: 'https://html.spec.whatwg.org/multipage/',
     },
     {
       name: 'CSS',
-      src: '.src/images/icons/css.svg',
+      src: './src/images/icons/css.svg',
       link: 'https://www.w3.org/Style/CSS/',
     },
     {
       name: 'JavaScript',
-      src: '.src/images/icons/javascript.svg',
+      src: './src/images/icons/javascript.svg',
       link: 'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript',
     },
     {
       name: 'NodeJS',
-      src: '.src/images/icons/nodejs.svg',
+      src: './src/images/icons/nodejs.svg',
       link: 'https://nodejs.org/en/',
     },
     {
+      name: 'NPM',
+      src: './src/images/icons/npm.svg',
+      link: 'https://www.npmjs.com/',
+    },
+    {
       name: 'Git',
-      src: '.src/images/icons/git.svg',
+      src: './src/images/icons/git.svg',
       link: 'https://git-scm.com/',
     },
     {
       name: 'GitHub',
-      src: '.src/images/icons/github.svg',
+      src: './src/images/icons/github.svg',
       link: 'https://github.com/',
     },
     {
       name: 'React',
-      src: '.src/images/icons/react.svg',
+      src: './src/images/icons/react.svg',
       link: 'https://pt-br.reactjs.org/',
     },
     {
       name: 'Redux',
-      src: '.src/images/icons/redux.svg',
+      src: './src/images/icons/redux.svg',
       link: 'https://react-redux.js.org/',
     },
     {
       name: 'Bootstrap',
-      src: '.src/images/icons/bootstrap.svg',
+      src: './src/images/icons/bootstrap.svg',
       link: 'https://getbootstrap.com/',
     },
     {
       name: 'Jest',
-      src: '.src/images/icons/jest.svg',
+      src: './src/images/icons/jest.svg',
       link: 'https://jestjs.io/pt-BR/',
     },
     {
-      name: 'NPM',
-      src: '.src/images/icons/npm.svg',
-      link: 'https://www.npmjs.com/',
-    },
-    {
       name: 'VSCode',
-      src: '.src/images/icons/vscode.svg',
+      src: './src/images/icons/vscode.svg',
       link: 'https://code.visualstudio.com/',
     },
     {
       name: 'Slack',
-      src: '.src/images/icons/slack.svg',
+      src: './src/images/icons/slack.svg',
       link: 'https://slack.com/intl/pt-br',
     },
     {
       name: 'Linux',
-      src: '.src/images/icons/linux.svg',
+      src: './src/images/icons/linux.svg',
       link: 'https://ubuntu.com/',
     },
   ],
@@ -106,19 +106,19 @@ export const portifolio = {
   ],
   contact: [
     {
-      src: '.src/images/icons/email.svg',
+      src: './src/images/icons/email.svg',
       link: 'marcosadriano.ti@gmail.com',
     },
     {
-      src: '.src/images/icons/linkedin.svg',
+      src: './src/images/icons/linkedin.svg',
       link: 'https://www.linkedin.com/in/marcos-adriano-ti/',
     },
     {
-      src: '.src/images/icons/github.svg',
+      src: './src/images/icons/github.svg',
       link: 'https://github.com/marcosadrianoti',
     },
     {
-      src: '.src/images/icons/whatsapp.svg',
+      src: './src/images/icons/whatsapp.svg',
       link: '(62) 99253-5292',
     },
   ],

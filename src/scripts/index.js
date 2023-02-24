@@ -44,12 +44,60 @@ const createTerminal = (typedTitle, targetTerminal) => {
 };
 
 const {
-  terminal: { title_1, title_2, title_3 },
+  terminal: { title_1, title_2, title_3, title_4 },
 } = portifolio;
 
 createTerminal(title_1, 'terminal_1');
 createTerminal(title_2, 'terminal_2');
 createTerminal(title_3, 'terminal_3');
+createTerminal(title_4, 'terminal_4');
+
+// Inclui texto na seção about
+
+const createParagraph = (p) => {
+  const article = document.querySelector('article');
+
+  const paragraph = document.createElement('p');
+  paragraph.textContent = p;
+
+  article.appendChild(paragraph);
+};
+
+const {
+  article: { p_1, p_2, p_3 },
+} = portifolio;
+
+createParagraph(p_1);
+createParagraph(p_2);
+createParagraph(p_3);
+
+// Inclui icons na seção habilidades
+
+const { skills } = portifolio;
+
+const icons = document.querySelector('.icons-container');
+
+skills.forEach(({ name, src, link }) => {
+  const iconLink = document.createElement('a');
+  iconLink.href = link;
+  iconLink.classList.add('icon');
+  iconLink.target = '_blank';
+
+  const iconImg = document.createElement('img');
+  iconImg.classList.add('img-icon');
+  iconImg.src = src;
+  iconImg.alt = name;
+
+  const iconName = document.createElement('p');
+  iconName.textContent = name;
+
+  iconLink.appendChild(iconImg);
+  iconLink.appendChild(iconName);
+
+  icons.appendChild(iconLink);
+});
+
+// console.log(article);
 
 // const testando = () => {
 //   console.log('teste');
