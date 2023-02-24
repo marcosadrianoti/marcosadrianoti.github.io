@@ -30,10 +30,6 @@ name.appendChild(secondName);
 
 // Cria os terminais.
 
-const {
-  terminal: { title_1, title_2, title_3 },
-} = portifolio;
-
 const createTerminal = (typedTitle, targetTerminal) => {
   const terminal = document.getElementById(targetTerminal);
 
@@ -46,6 +42,10 @@ const createTerminal = (typedTitle, targetTerminal) => {
   terminal.appendChild(blank);
   terminal.appendChild(title);
 };
+
+const {
+  terminal: { title_1, title_2, title_3 },
+} = portifolio;
 
 createTerminal(title_1, 'terminal_1');
 createTerminal(title_2, 'terminal_2');
