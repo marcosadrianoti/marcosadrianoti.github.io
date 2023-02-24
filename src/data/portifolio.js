@@ -1,3 +1,7 @@
+export const ALL = 'ALL';
+export const FRONTEND = 'FRONTEND';
+export const BACKEND = 'BACKEND';
+
 export const portifolio = {
   personal_info: {
     photo: './src/images/marcos-adriano.png',
@@ -92,16 +96,39 @@ export const portifolio = {
   projects: [
     {
       name: 'Solar System',
-      src: './src/imagens/projects/solar-system.jpg',
+      src: './src/images/projects/solar-system.jpg',
       link: 'https://solar-system-mati.surge.sh/',
       description:
         'HTML, CSS, JavaScrpt e CSS - Mostra todas a missões no sistema solar. Clique nos planetas para ver suas óbitas.',
+      type: FRONTEND,
     },
     {
-      name: '',
-      src: './src/imagens/projects/.jpg',
+      name: 'lynx',
+      src: './src/images/projects/lynx-960x640.jpg',
       link: '',
-      description: '',
+      description: 'Testando lynx.',
+      type: BACKEND,
+    },
+    {
+      name: 'blue-origin',
+      src: './src/images/projects/blue-origin-960x640.jpg',
+      link: '',
+      description: 'Testando blue-origin.',
+      type: FRONTEND,
+    },
+    {
+      name: 'orion-nasa',
+      src: './src/images/projects/orion-nasa-960x640.jpg',
+      link: '',
+      description: 'Testando orion-nasa.',
+      type: BACKEND,
+    },
+    {
+      name: 'space-ship',
+      src: './src/images/projects/space-ship-960x640.jpg',
+      link: '',
+      description: 'Testando space-ship.',
+      type: FRONTEND,
     },
   ],
   contact: [

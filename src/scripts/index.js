@@ -1,4 +1,4 @@
-import { portifolio } from '../data/portifolio.js';
+import { BACKEND, FRONTEND, ALL, portifolio } from '../data/portifolio.js';
 
 const {
   personal_info: { name_1, name_2, photo, alt },
@@ -97,12 +97,75 @@ skills.forEach(({ name, src, link }) => {
   icons.appendChild(iconLink);
 });
 
-// console.log(article);
+// Funionamento da galeria
 
-// const testando = () => {
-//   console.log('teste');
-// }
+const fillGallery = (type) => {
+  const { projects } = portifolio;
+  const filteredProjects =
+    type !== ALL
+      ? projects.filter((project) => project.type === type)
+      : projects;
+  const gallery = document.querySelector('.gallery');
+  gallery.innerText = '';
+  filteredProjects.forEach(({ name, src, description, link }, index) => {
+    const imgProject = document.createElement('img');
+    imgProject.src = src;
+    imgProject.alt = name;
+    imgProject.classList.add('item');
+    if (index === 0) {
+      imgProject.classList.add('current-item');
+    }
+    gallery.appendChild(imgProject);
+  });
+  currentItem = 0;
+  items = document.querySelectorAll('.item');
+  maxItems = items.length;
+};
 
-// const btn = document.getElementById('myBtn');
-// console.log(btn);
-// btn.addEventListener('click', testando);
+const allProjects = document.getElementById(ALL);
+allProjects.addEventListener('click', () => fillGallery(allProjects.value));
+const frontendProjects = document.getElementById(FRONTEND);
+frontendProjects.addEventListener('click', () =>
+  fillGallery(frontendProjects.value)
+);
+const backendProjects = document.getElementById(BACKEND);
+backendProjects.addEventListener('click', () =>
+  fillGallery(backendProjects.value)
+);
+
+const controls = document.querySelectorAll('.control');
+let currentItem = 0;
+let items = document.querySelectorAll('.item');
+let maxItems = items.length;
+fillGallery(ALL);
+
+controls.forEach((control) => {
+  control.addEventListener('click', (e) => {
+    const isLeft = e.target.classList.contains('arrow-left');
+
+    if (isLeft) {
+      console.log('esquerdo');
+      currentItem -= 1;
+    } else {
+      console.log('direito');
+      currentItem += 1;
+    }
+
+    if (currentItem >= maxItems) {
+      currentItem = 0;
+    }
+
+    if (currentItem < 0) {
+      currentItem = maxItems - 1;
+    }
+
+    items.forEach((item) => item.classList.remove('current-item'));
+
+    items[currentItem].scrollIntoView({
+      behavior: 'smooth',
+      inline: 'center',
+    });
+
+    items[currentItem].classList.add('current-item');
+  });
+});
