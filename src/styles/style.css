@@ -57,7 +57,7 @@ img {
     height: 350px;
 }
 
-.meu-nome, .terminal{
+.my-name, .terminal{
     color:#ffffff;
     font-weight: lighter;
     /* font-stretch: ultra-expanded; */
@@ -65,7 +65,7 @@ img {
     margin-left: 5px;
 }
 
-.nome {
+.name {
     display: flex;
     justify-content: space-between;
 }
@@ -94,6 +94,7 @@ img {
     font-weight: lighter;
     font-size: 2rem;
     padding-left: 5px;
+    padding-bottom: 10px;
     margin-left: 5px;
 }
 
@@ -141,7 +142,27 @@ article p {
     font-size: 25px;
 }
 
+.cursor {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
 
+.cursor::after {
+  content: "";
+  width: 20px;
+  height: 35px;
+  background: #ffffff;
+  display: inline-block;
+  align-items: center;
+  animation: cursor-blink 1.5s steps(2) infinite;
+  }
+
+  @keyframes cursor-blink {
+    0% {
+      opacity: 0;
+    }
+  }
 
 
 

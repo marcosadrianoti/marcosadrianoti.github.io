@@ -1,6 +1,4 @@
-const CURSOR = '&#x25AF;'
-
-export default portifolio = {
+export const portifolio = {
   personal_info: {
     photo: './src/images/marcos-adriano.png',
     alt: 'Foto do Marcos Adriano',
@@ -8,11 +6,11 @@ export default portifolio = {
     name_2: 'Adriano',
   },
   terminal: {
-    title_1 : `> SOU DESENVOLVEDOR WEB ${CURSOR}`,
-    title_2 : `> Olá ${CURSOR};`,
-    title_3 : `> Habilidades ${CURSOR};`,
-    title_4 : `> Projetos ${CURSOR};`,
-    title_5 : `> Contato ${CURSOR};`,
+    title_1: '> SOU DESENVOLVEDOR WEB',
+    title_2: '> Olá',
+    title_3: '> Habilidades',
+    title_4: '> Projetos',
+    title_5: '> Contato',
   },
   article: {
     p_1: 'Como desenvolvedor web júnior, meu objetivo é aplicar os conhecimentos adquiridos em programação e design para criar soluções eficientes e atraentes na web. Tenho experiência em linguagens como HTML, CSS e JavaScript, além de frameworks como o React. Estou ansioso para aprender novas tecnologias e aprimorar minhas habilidades. Além disso, valorizo a colaboração em equipe. Estou sempre disposto a aprender com meus colegas e a contribuir com minhas próprias ideias.',
@@ -95,8 +93,9 @@ export default portifolio = {
     {
       name: 'Solar System',
       src: './src/imagens/projects/solar-system.jpg',
-      link: 'https://solar-system-mati.surge.sh/', 
-      description: 'HTML, CSS, JavaScrpt e CSS - Mostra todas a missões no sistema solar. Clique nos planetas para ver suas óbitas.',
+      link: 'https://solar-system-mati.surge.sh/',
+      description:
+        'HTML, CSS, JavaScrpt e CSS - Mostra todas a missões no sistema solar. Clique nos planetas para ver suas óbitas.',
     },
     {
       name: '',
@@ -117,10 +116,10 @@ export default portifolio = {
     {
       src: '.src/images/icons/github.svg',
       link: 'https://github.com/marcosadrianoti',
-    },     
+    },
     {
       src: '.src/images/icons/whatsapp.svg',
       link: '(62) 99253-5292',
-    },      
+    },
   ],
-}
+};
