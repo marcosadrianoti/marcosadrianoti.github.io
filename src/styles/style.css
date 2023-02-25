@@ -61,7 +61,6 @@ img {
 .terminal {
     color: #ffffff;
     font-weight: lighter;
-    /* font-stretch: ultra-expanded; */
     font-size: 4rem;
     margin-left: 5px;
 }
@@ -74,9 +73,7 @@ img {
 .first-name {
     color: #0B0B0B;
     font-weight: bolder;
-    /* font-size: 105px; */
     font-size: 6rem;
-    /* font-size: 70; */
     margin-left: 0;
 }
 
@@ -111,7 +108,8 @@ img {
 
 .about,
 .skills,
-.projects {
+.projects,
+.contact {
     margin-right: 4.5%;
     padding: 30px;
     background-color: #D9D9D9;
@@ -119,7 +117,8 @@ img {
 
 .about .terminal,
 .skills .terminal,
-.projects .terminal {
+.projects .terminal,
+.contact .terminal {
     width: 20%;
     margin-bottom: 30px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -195,7 +194,7 @@ article p {
 }
 
 .gallery-wrapper {
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .arrow-left,
@@ -214,7 +213,7 @@ article p {
     opacity: 0.3;
     cursor: pointer;
     z-index: 1;
-    /* border: none; */
+    border: none;
 }
 
 .arrow-left:hover,
@@ -244,7 +243,6 @@ article p {
 
 .item {
     width: 600px;
-    /* height: auto; */
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
     opacity: 0.5;
@@ -268,4 +266,14 @@ article p {
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */
+}
+
+.contact-icon {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #242323;
+    font-size: 25px;
+    gap: 10px;
+    margin-bottom: 15px;
 }

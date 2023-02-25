@@ -106,7 +106,8 @@ export const portifolio = {
       name: 'lynx',
       src: './src/images/projects/lynx-960x640.jpg',
       link: '',
-      description: 'Testando lynx.',
+      description:
+        'HTML, CSS, JavaScrpt e React - Mostra todas a missões no sistema solar. Clique nos planetas para ver suas óbitas.',
       type: BACKEND,
     },
     {
@@ -131,22 +132,26 @@ export const portifolio = {
       type: FRONTEND,
     },
   ],
-  contact: [
+  contacts: [
     {
+      name: 'marcosadriano.ti@gmail.com',
       src: './src/images/icons/email.svg',
-      link: 'marcosadriano.ti@gmail.com',
+      link: 'mailto:marcosadriano.ti@gmail.com',
     },
     {
+      name: 'https://www.linkedin.com/in/marcos-adriano-ti/',
       src: './src/images/icons/linkedin.svg',
       link: 'https://www.linkedin.com/in/marcos-adriano-ti/',
     },
     {
+      name: 'https://github.com/marcosadrianoti',
       src: './src/images/icons/github.svg',
       link: 'https://github.com/marcosadrianoti',
     },
     {
+      name: '+55(62)992535292',
       src: './src/images/icons/whatsapp.svg',
-      link: '(62) 99253-5292',
+      link: 'https://wa.me/+5562992535292',
     },
   ],
 };

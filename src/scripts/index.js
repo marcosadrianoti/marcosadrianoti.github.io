@@ -5,6 +5,7 @@ const {
 } = portifolio;
 
 // Inclui a foto.
+
 const landing = document.getElementById('landing');
 
 const picture = document.createElement('img');
@@ -44,13 +45,14 @@ const createTerminal = (typedTitle, targetTerminal) => {
 };
 
 const {
-  terminal: { title_1, title_2, title_3, title_4 },
+  terminal: { title_1, title_2, title_3, title_4, title_5 },
 } = portifolio;
 
 createTerminal(title_1, 'terminal_1');
 createTerminal(title_2, 'terminal_2');
 createTerminal(title_3, 'terminal_3');
 createTerminal(title_4, 'terminal_4');
+createTerminal(title_5, 'terminal_5');
 
 // Inclui texto na seção about
 
@@ -106,7 +108,7 @@ const fillGallery = (type) => {
       ? projects.filter((project) => project.type === type)
       : projects;
   const gallery = document.querySelector('.gallery');
-  gallery.innerText = '';
+  gallery.innerHTML = '';
   //
   filteredProjects.forEach(({ name, src, description, link }, index) => {
     const linkProject = document.createElement('a');
@@ -132,8 +134,15 @@ const fillGallery = (type) => {
   currentItem = 0;
   items = document.querySelectorAll('.item');
   maxItems = items.length;
+
+  // Torna visível o primeiro elemento da galeria.
+
+  const controlBtns = document.querySelectorAll('.control');
+  controlBtns[0].click();
+  controlBtns[1].click();
 };
 //
+
 const allProjects = document.getElementById(ALL);
 allProjects.addEventListener('click', () => fillGallery(allProjects.value));
 const frontendProjects = document.getElementById(FRONTEND);
@@ -174,10 +183,37 @@ controls.forEach((control) => {
     items.forEach((item) => item.classList.remove('current-item'));
 
     items[currentItem].scrollIntoView({
-      behavior: 'smooth',
+      block: 'center',
       inline: 'center',
+      behavior: 'instant',
     });
 
     items[currentItem].classList.add('current-item');
   });
+});
+
+// Contact
+
+const { contacts } = portifolio;
+
+const contactContainer = document.querySelector('.contact-container');
+
+contacts.forEach(({ name, src, link }) => {
+  const contactLink = document.createElement('a');
+  contactLink.href = link;
+  contactLink.classList.add('contact-icon');
+  contactLink.target = '_blank';
+
+  const contactImg = document.createElement('img');
+  contactImg.classList.add('img-icon');
+  contactImg.src = src;
+  contactImg.alt = name;
+
+  const contactName = document.createElement('p');
+  contactName.textContent = name;
+
+  contactLink.appendChild(contactImg);
+  contactLink.appendChild(contactName);
+
+  contactContainer.appendChild(contactLink);
 });
