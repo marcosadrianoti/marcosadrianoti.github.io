@@ -107,7 +107,13 @@ const fillGallery = (type) => {
       : projects;
   const gallery = document.querySelector('.gallery');
   gallery.innerText = '';
+  //
   filteredProjects.forEach(({ name, src, description, link }, index) => {
+    const linkProject = document.createElement('a');
+    linkProject.href = link;
+    linkProject.classList.add('project');
+    linkProject.target = '_blank';
+
     const imgProject = document.createElement('img');
     imgProject.src = src;
     imgProject.alt = name;
@@ -115,13 +121,19 @@ const fillGallery = (type) => {
     if (index === 0) {
       imgProject.classList.add('current-item');
     }
-    gallery.appendChild(imgProject);
+    const descriptionProject = document.createElement('p');
+    descriptionProject.textContent = description;
+
+    linkProject.appendChild(imgProject);
+    linkProject.appendChild(descriptionProject);
+
+    gallery.appendChild(linkProject);
   });
   currentItem = 0;
   items = document.querySelectorAll('.item');
   maxItems = items.length;
 };
-
+//
 const allProjects = document.getElementById(ALL);
 allProjects.addEventListener('click', () => fillGallery(allProjects.value));
 const frontendProjects = document.getElementById(FRONTEND);

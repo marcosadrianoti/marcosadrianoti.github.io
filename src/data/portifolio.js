@@ -99,7 +99,7 @@ export const portifolio = {
       src: './src/images/projects/solar-system.jpg',
       link: 'https://solar-system-mati.surge.sh/',
       description:
-        'HTML, CSS, JavaScrpt e CSS - Mostra todas a missões no sistema solar. Clique nos planetas para ver suas óbitas.',
+        'HTML, CSS, JavaScrpt e React - Mostra todas a missões no sistema solar. Clique nos planetas para ver suas óbitas.',
       type: FRONTEND,
     },
     {

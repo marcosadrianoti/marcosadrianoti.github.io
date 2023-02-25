@@ -190,7 +190,7 @@ article p {
 .container {
     position: relative;
     padding: 15px;
-    max-width: 640px;
+    max-width: 1040px;
     margin: 0 auto;
 }
 
@@ -235,9 +235,16 @@ article p {
     gap: 15px;
 }
 
+.gallery a {
+    font-size: 25px;
+    color: #242323;
+    text-decoration: none;
+    text-align: center;
+}
+
 .item {
-    width: 500px;
-    /* height: 450px; */
+    width: 600px;
+    /* height: auto; */
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
     opacity: 0.5;
