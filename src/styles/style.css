@@ -30,7 +30,6 @@ nav {
 
 nav a {
     color: #ffffff;
-    text-decoration: none;
 }
 
 section {
@@ -57,10 +56,11 @@ img {
 }
 
 .my-name,
-.terminal {
+.terminal,
+.cursor {
     color: #ffffff;
     font-weight: lighter;
-    font-size: 4rem;
+    font-size: 40px;
     margin-left: 5px;
 }
 
@@ -72,14 +72,14 @@ img {
 .first-name {
     color: #0B0B0B;
     font-weight: bolder;
-    font-size: 6rem;
+    font-size: 100px;
     margin-left: 0;
 }
 
 .second-name {
     color: #ffffff;
     font-weight: bolder;
-    font-size: 6rem;
+    font-size: 100px;
 }
 
 .terminal {
@@ -147,7 +147,6 @@ article p {
     flex-direction: column;
     align-items: center;
     font-size: 25px;
-    text-decoration: none;
     color: black;
     gap: 10px;
 }
@@ -237,7 +236,6 @@ article p {
 .gallery a {
     font-size: 25px;
     color: #242323;
-    text-decoration: none;
     text-align: center;
 }
 
@@ -271,7 +269,6 @@ article p {
 .contact-icon {
     display: flex;
     align-items: center;
-    text-decoration: none;
     color: #242323;
     font-size: 25px;
     gap: 10px;
@@ -286,6 +283,38 @@ footer {
 }
 
 footer a {
-    text-decoration: none;
     color: #858585;
+}
+
+@media screen and (max-width: 900px) {
+    .name {
+        flex-direction: column;
+    }
+
+    .my-name,
+    .terminal,
+    .cursor {
+        font-size: 20px;
+    }
+
+    .first-name,
+    .second-name {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav a {
+        font-size: 10px;
+    }
+
+    .my-name,
+    .terminal,
+    .cursor {
+        font-size: 14px;
+    }
+
+    #portifolio h1 {
+        font-size: 20px;
+    }
 }
