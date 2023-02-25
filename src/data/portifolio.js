@@ -1,6 +1,8 @@
 export const ALL = 'ALL';
 export const FRONTEND = 'FRONTEND';
 export const BACKEND = 'BACKEND';
+const ICON_PATH = './src/images/icons/';
+const PROJECT_PATH = './src/images/projects/';
 
 export const portifolio = {
   personal_info: {
@@ -24,79 +26,79 @@ export const portifolio = {
   skills: [
     {
       name: 'HTML',
-      src: './src/images/icons/html.svg',
+      src: `${ICON_PATH}html.svg`,
       link: 'https://html.spec.whatwg.org/multipage/',
     },
     {
       name: 'CSS',
-      src: './src/images/icons/css.svg',
+      src: `${ICON_PATH}css.svg`,
       link: 'https://www.w3.org/Style/CSS/',
     },
     {
       name: 'JavaScript',
-      src: './src/images/icons/javascript.svg',
+      src: `${ICON_PATH}javascript.svg`,
       link: 'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript',
     },
     {
       name: 'NodeJS',
-      src: './src/images/icons/nodejs.svg',
+      src: `${ICON_PATH}nodejs.svg`,
       link: 'https://nodejs.org/en/',
     },
     {
       name: 'NPM',
-      src: './src/images/icons/npm.svg',
+      src: `${ICON_PATH}npm.svg`,
       link: 'https://www.npmjs.com/',
     },
     {
       name: 'Git',
-      src: './src/images/icons/git.svg',
+      src: `${ICON_PATH}git.svg`,
       link: 'https://git-scm.com/',
     },
     {
       name: 'GitHub',
-      src: './src/images/icons/github.svg',
+      src: `${ICON_PATH}github.svg`,
       link: 'https://github.com/',
     },
     {
       name: 'React',
-      src: './src/images/icons/react.svg',
+      src: `${ICON_PATH}react.svg`,
       link: 'https://pt-br.reactjs.org/',
     },
     {
       name: 'Redux',
-      src: './src/images/icons/redux.svg',
+      src: `${ICON_PATH}redux.svg`,
       link: 'https://react-redux.js.org/',
     },
     {
       name: 'Bootstrap',
-      src: './src/images/icons/bootstrap.svg',
+      src: `${ICON_PATH}bootstrap.svg`,
       link: 'https://getbootstrap.com/',
     },
     {
       name: 'Jest',
-      src: './src/images/icons/jest.svg',
+      src: `${ICON_PATH}jest.svg`,
       link: 'https://jestjs.io/pt-BR/',
     },
     {
       name: 'VSCode',
-      src: './src/images/icons/vscode.svg',
+      src: `${ICON_PATH}vscode.svg`,
       link: 'https://code.visualstudio.com/',
     },
     {
       name: 'Slack',
-      src: './src/images/icons/slack.svg',
+      src: `${ICON_PATH}slack.svg`,
       link: 'https://slack.com/intl/pt-br',
     },
     {
       name: 'Linux',
-      src: './src/images/icons/linux.svg',
+      src: `${ICON_PATH}linux.svg`,
       link: 'https://ubuntu.com/',
     },
   ],
   projects: [
     {
       name: 'Solar System',
-      src: './src/images/projects/solar-system.jpg',
+      src: `${PROJECT_PATH}solar-system.jpg`,
       link: 'https://solar-system-mati.surge.sh/',
       description:
         'HTML, CSS, JavaScrpt e React - Mostra todas a missões no sistema solar. Clique nos planetas para ver suas óbitas.',
@@ -104,7 +106,7 @@ export const portifolio = {
     },
     {
       name: 'lynx',
-      src: './src/images/projects/lynx-960x640.jpg',
+      src: `${PROJECT_PATH}lynx-960x640.jpg`,
       link: '',
       description:
         'HTML, CSS, JavaScrpt e React - Mostra todas a missões no sistema solar. Clique nos planetas para ver suas óbitas.',
@@ -112,21 +114,21 @@ export const portifolio = {
     },
     {
       name: 'blue-origin',
-      src: './src/images/projects/blue-origin-960x640.jpg',
+      src: `${PROJECT_PATH}blue-origin-960x640.jpg`,
       link: '',
       description: 'Testando blue-origin.',
       type: FRONTEND,
     },
     {
       name: 'orion-nasa',
-      src: './src/images/projects/orion-nasa-960x640.jpg',
+      src: `${PROJECT_PATH}orion-nasa-960x640.jpg`,
       link: '',
       description: 'Testando orion-nasa.',
       type: BACKEND,
     },
     {
       name: 'space-ship',
-      src: './src/images/projects/space-ship-960x640.jpg',
+      src: `${PROJECT_PATH}space-ship-960x640.jpg`,
       link: '',
       description: 'Testando space-ship.',
       type: FRONTEND,
@@ -135,22 +137,22 @@ export const portifolio = {
   contacts: [
     {
       name: 'marcosadriano.ti@gmail.com',
-      src: './src/images/icons/email.svg',
+      src: `${ICON_PATH}email.svg`,
       link: 'mailto:marcosadriano.ti@gmail.com',
     },
     {
       name: 'https://www.linkedin.com/in/marcos-adriano-ti/',
-      src: './src/images/icons/linkedin.svg',
+      src: `${ICON_PATH}linkedin.svg`,
       link: 'https://www.linkedin.com/in/marcos-adriano-ti/',
     },
     {
       name: 'https://github.com/marcosadrianoti',
-      src: './src/images/icons/github.svg',
+      src: `${ICON_PATH}github.svg`,
       link: 'https://github.com/marcosadrianoti',
     },
     {
       name: '+55(62)992535292',
-      src: './src/images/icons/whatsapp.svg',
+      src: `${ICON_PATH}whatsapp.svg`,
       link: 'https://wa.me/+5562992535292',
     },
   ],
