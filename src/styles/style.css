@@ -13,6 +13,7 @@ body {
     margin-right: 30px;
     margin-top: 30px;
     font-family: 'Inter', sans-serif;
+    min-width: 500px;
 }
 
 .container {
