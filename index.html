@@ -8,69 +8,73 @@
     <link rel="stylesheet" href="./src/styles/style.css" />
   </head>
   <body>
-    <section class="home" id="home">
-      <div class="landing" id="landing">
-        <nav>
-          <a href="#home">HOME</a>
-          <a href="#about">SOBRE</a>
-          <a href="#skills">HABILIDADES</a>
-          <a href="#projects">PROJETOS</a>
-          <a href="#contact">CONTATO</a>
-        </nav>
-      </div>
-
-      <div id="portifolio">
-        <h1>PORTIFÓLIO</h1>
-      </div>
-      <div class="title">
-        <span class="my-name">MEU NOME É</span>
-        <div class="name" id="name"></div>
-        <div class="terminal" id="terminal_1"></div>
-      </div>
-    </section>
-
-    <section class="about" id="about">
-      <div class="terminal" id="terminal_2"></div>
-      <article></article>
-    </section>
-
-    <section class="skills" id="skills">
-      <div class="terminal" id="terminal_3"></div>
-      <div class="icons-container"></div>
-    </section>
-
-    <section class="projects" id="projects">
-      <div class="terminal" id="terminal_4"></div>
-      <div class="options">
-        <label for="ALL">
-          <input type="radio" id="ALL" name="projects" value="ALL" checked />
-          Todos
-        </label>
-        <label for="FRONTEND">
-          <input type="radio" id="FRONTEND" name="projects" value="FRONTEND" />
-          Front-End
-        </label>
-        <label for="BACKEND">
-          <input type="radio" id="BACKEND" name="projects" value="BACKEND" />
-          Back-End
-        </label>
-      </div>
-
+    <main>
       <div class="container">
-        <button class="arrow-left control" aria-label="Previous image">
-          ◀
-        </button>
-        <button class="arrow-right control" aria-label="Next Image">▶</button>
-        <div class="gallery-wrapper">
-          <div class="gallery"></div>
+      <section class="home" id="home">
+        <div class="landing" id="landing">
+          <nav>
+            <a href="#home">HOME</a>
+            <a href="#about">SOBRE</a>
+            <a href="#skills">HABILIDADES</a>
+            <a href="#projects">PROJETOS</a>
+            <a href="#contact">CONTATO</a>
+          </nav>
         </div>
-      </div>
-    </section>
 
-    <section class="contact" id="contact">
-      <div class="terminal" id="terminal_5"></div>
-      <div class="contact-container"></div>
-    </section>
+        <div id="portifolio">
+          <h1>PORTIFÓLIO</h1>
+        </div>
+        <div class="title">
+          <span class="my-name">MEU NOME É</span>
+          <div class="name" id="name"></div>
+          <div class="terminal" id="terminal_1"></div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="terminal" id="terminal_2"></div>
+        <article></article>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="terminal" id="terminal_3"></div>
+        <div class="icons-container"></div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="terminal" id="terminal_4"></div>
+        <div class="options">
+          <label for="ALL">
+            <input type="radio" id="ALL" name="projects" value="ALL" checked />
+            Todos
+          </label>
+          <label for="FRONTEND">
+            <input type="radio" id="FRONTEND" name="projects" value="FRONTEND" />
+            Front-End
+          </label>
+          <label for="BACKEND">
+            <input type="radio" id="BACKEND" name="projects" value="BACKEND" />
+            Back-End
+          </label>
+        </div>
+
+        <div class="container">
+          <button class="arrow-left control" aria-label="Previous image">
+            ◀
+          </button>
+          <button class="arrow-right control" aria-label="Next Image">▶</button>
+          <div class="gallery-wrapper">
+            <div class="gallery"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="terminal" id="terminal_5"></div>
+        <div class="contact-container"></div>
+      </section>
+    </div>
+    </main>
 
     <footer>
       Site produzido exclusivamente com HTML, CSS e JavaScript -
