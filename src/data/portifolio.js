@@ -13,10 +13,10 @@ export const portifolio = {
   },
   terminal: {
     title_1: '> SOU DESENVOLVEDOR WEB',
-    title_2: '> Olá',
-    title_3: '> Habilidades',
-    title_4: '> Projetos',
-    title_5: '> Contato',
+    title_2: '> OLÁ',
+    title_3: '> HABILIDADES',
+    title_4: '> PROJETOS',
+    title_5: '> CONTATO',
   },
   article: {
     p_1: 'Como desenvolvedor web júnior, meu objetivo é aplicar os conhecimentos adquiridos em programação e design para criar soluções eficientes e atraentes na web. Tenho experiência em linguagens como HTML, CSS e JavaScript, além de frameworks como o React. Estou ansioso para aprender novas tecnologias e aprimorar minhas habilidades. Além disso, valorizo a colaboração em equipe. Estou sempre disposto a aprender com meus colegas e a contribuir com minhas próprias ideias.',
