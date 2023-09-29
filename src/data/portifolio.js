@@ -1,6 +1,7 @@
 export const ALL = 'ALL';
 export const FRONTEND = 'FRONTEND';
 export const BACKEND = 'BACKEND';
+export const FUNDAMENTALS = 'FUNDAMENTALS';
 const ICON_PATH = './src/images/icons/';
 const PROJECT_PATH = './src/images/projects/';
 
@@ -97,20 +98,20 @@ export const portifolio = {
   ],
   projects: [
     {
+      name: 'Lessons Learned',
+      src: `${PROJECT_PATH}lessons_learned.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-lessons-learned',
+      description:
+        'Site contém uma série de informações sobre o que aprendi na Trybe ao longo dos primeiros blocos.',
+      type: FUNDAMENTALS,
+    },
+    {
       name: 'Solar System',
       src: `${PROJECT_PATH}solar-system.jpg`,
       link: 'https://solar-system-mati.surge.sh/',
       description:
         'HTML, CSS, JavaScrpt e React - Mostra todas a missões no sistema solar. Clique nos planetas para ver suas óbitas.',
       type: FRONTEND,
-    },
-    {
-      name: 'lynx',
-      src: `${PROJECT_PATH}lynx-960x640.jpg`,
-      link: '',
-      description:
-        'HTML, CSS, JavaScrpt e React - Mostra todas a missões no sistema solar. Clique nos planetas para ver suas óbitas.',
-      type: BACKEND,
     },
     {
       name: 'blue-origin',
