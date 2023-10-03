@@ -106,32 +106,51 @@ export const portifolio = {
       type: FUNDAMENTALS,
     },
     {
+      name: 'Playground Functions',
+      src: `${PROJECT_PATH}playground_functions.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-playground-functions',
+      description:
+        'Código de funções que resolvem problemas com respostas pré-determinadas.',
+      type: FUNDAMENTALS,
+    },
+    {
+      name: 'Pixels Art',
+      src: `${PROJECT_PATH}pixels_art.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-pixels-art',
+      description:
+        'Editor de arte com pixels onde o usuário escolhe uma cor numa paleta de cores e pinta num quadro branco.',
+      type: FUNDAMENTALS,
+    },
+    {
+      name: 'Trybewarts',
+      src: `${PROJECT_PATH}trybewarts.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-trybewarts',
+      description:
+        'Página de formulário de feedbacks dos alunos sobre a "Escola de Magia de Trybewarts"',
+      type: FUNDAMENTALS,
+    },
+    {
+      name: 'ES6 e Testes Unitários',
+      src: `${PROJECT_PATH}js_unit_tests.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-js-unit-tests',
+      description:
+        'Funções e testes utilizando a abordagem de desenvolvimento orientado a testes (TDD)',
+      type: FUNDAMENTALS,
+    },
+    {
+      name: 'Zoo Functions',
+      src: `${PROJECT_PATH}zoo_functions.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-zoo-functions',
+      description:
+        'Funções que buscam informações sobre os animais e os colaboradores de um zoológico.',
+      type: FUNDAMENTALS,
+    },
+    {
       name: 'Solar System',
       src: `${PROJECT_PATH}solar-system.jpg`,
       link: 'https://solar-system-mati.surge.sh/',
       description:
         'HTML, CSS, JavaScrpt e React - Mostra todas a missões no sistema solar. Clique nos planetas para ver suas óbitas.',
-      type: FRONTEND,
-    },
-    {
-      name: 'blue-origin',
-      src: `${PROJECT_PATH}blue-origin-960x640.jpg`,
-      link: '',
-      description: 'Testando blue-origin.',
-      type: FRONTEND,
-    },
-    {
-      name: 'orion-nasa',
-      src: `${PROJECT_PATH}orion-nasa-960x640.jpg`,
-      link: '',
-      description: 'Testando orion-nasa.',
-      type: BACKEND,
-    },
-    {
-      name: 'space-ship',
-      src: `${PROJECT_PATH}space-ship-960x640.jpg`,
-      link: '',
-      description: 'Testando space-ship.',
       type: FRONTEND,
     },
   ],
