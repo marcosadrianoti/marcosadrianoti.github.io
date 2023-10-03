@@ -146,11 +146,83 @@ export const portifolio = {
       type: FUNDAMENTALS,
     },
     {
+      name: 'Shopping Cart',
+      src: `${PROJECT_PATH}shopping_cart.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-shopping-cart',
+      description:
+        'Aplicativo que lista produtos a venda utilizando a API do Mercado Livre.',
+      type: FRONTEND,
+    },
+    {
       name: 'Solar System',
-      src: `${PROJECT_PATH}solar-system.jpg`,
+      src: `${PROJECT_PATH}solar_system.jpg`,
       link: 'https://solar-system-mati.surge.sh/',
       description:
         'HTML, CSS, JavaScrpt e React - Mostra todas a missões no sistema solar. Clique nos planetas para ver suas óbitas.',
+      type: FRONTEND,
+    },
+    {
+      name: 'Tryunfo',
+      src: `${PROJECT_PATH}tryunfo.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-tryunfo',
+      description:
+        'Jogo no estilo Super Trunfo configurável pelo usuário.',
+      type: FRONTEND,
+    },
+    {
+      name: 'TrybeTunes',
+      src: `${PROJECT_PATH}trybetunes.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-trybetunes',
+      description:
+        'Aplicação que reproduz músicas, cria lista de músicas favoritas e edita o perfil do usuário logado.',
+      type: FRONTEND,
+    },
+    {
+      name: 'Online Store',
+      src: `${PROJECT_PATH}online_store.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-online-store-group',
+      description:
+        'Aplicação de loja online usando a API do Mercado Livre, mas sem persistência em banco de dados.',
+      type: FRONTEND,
+    },
+    {
+      name: 'React Testing Library',
+      src: `${PROJECT_PATH}rtl.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-react-testing-library',
+      description:
+        'Testes para uma aplicação React que já está criada utilizando Jest e a biblioteca RTL.',
+      type: FRONTEND,
+    },
+    {
+      name: 'Trybewallet',
+      src: `${PROJECT_PATH}trybewallet.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-trybewallet',
+      description:
+        'Carteira de controle de gastos com conversor de moedas.',
+      type: FRONTEND,
+    },
+    {
+      name: 'Trivia',
+      src: `${PROJECT_PATH}trivia.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-trivia-react-redux',
+      description:
+        'Jogo de perguntas e respostas baseado no jogo Trivia utilizando React e Redux.',
+      type: FRONTEND,
+    },
+    {
+      name: 'Star Wars Planets Search',
+      src: `${PROJECT_PATH}star_wars_planets_search.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-starwars-planets-search',
+      description:
+        'Aplicação de lista com filtros de planetas do universo de Star Wars.',
+      type: FRONTEND,
+    },
+    {
+      name: 'App de Receitas',
+      src: `${PROJECT_PATH}recipes.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-recipes-app',
+      description:
+        'Aplicativo de receitas, utilizando o ecossistema React: Hooks e Context API',
       type: FRONTEND,
     },
   ],
