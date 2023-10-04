@@ -314,6 +314,70 @@ export const portifolio = {
         'Aplicativo que simula um algoritmo de indexação de documentos similar ao do Google.',
       type: PYTHON,
     },
+    {
+      name: 'Restaurant Orders',
+      src: `${PROJECT_PATH}restaurant_orders.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-restaurant-orders',
+      description:
+        'Aplicativo de construção de cardápios.',
+      type: PYTHON,
+    },
+    {
+      name: 'POO Pythonico',
+      src: `${PROJECT_PATH}poo_pythonico.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-python-poo-pythonico',
+      description:
+        'Programa que simula uma loja virtual elaborando códigos que façam o uso de POO e tipagem estática em Python.',
+      type: PYTHON,
+    },
+    {
+      name: 'ProFiler',
+      src: `${PROJECT_PATH}profiler.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-python-profiler',
+      description:
+        'Aplicação de linha de comando que gera um relatório sobre o caminho do diretório/arquivo informado.',
+      type: PYTHON,
+    },
+    {
+      name: 'Inventory Report',
+      src: `${PROJECT_PATH}inventory_report.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-python-inventory-report',
+      description:
+        'Gerador de relatórios.',
+      type: PYTHON,
+    },
+    {
+      name: 'Tech News',
+      src: `${PROJECT_PATH}tech_news.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-python-tech-news',
+      description:
+        'Aplicação que faz consultas em notícias sobre tecnologia utilizando a raspagem de dados.',
+      type: PYTHON,
+    },
+    {
+      name: 'Traduzo',
+      src: `${PROJECT_PATH}traduzo.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-python-traduzo',
+      description:
+        'Aplicação de tradução de textos entre vários idiomas.',
+      type: PYTHON,
+    },
+    {
+      name: 'Spotnews',
+      src: `${PROJECT_PATH}spotnews.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-python-spotnews',
+      description:
+        'Aplicação que armazena notícias que podem ser categorizadas por um usuário cadastrado.',
+      type: PYTHON,
+    },
+    {
+      name: 'Super Portfólio',
+      src: `${PROJECT_PATH}super_portfolio.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-python-super-portfolio',
+      description:
+        'API para gerenciamento de dados de perfil e projetos.',
+      type: PYTHON,
+    },
   ],
   contacts: [
     {
