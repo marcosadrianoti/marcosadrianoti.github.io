@@ -2,6 +2,7 @@ export const ALL = 'ALL';
 export const FRONTEND = 'FRONTEND';
 export const BACKEND = 'BACKEND';
 export const FUNDAMENTALS = 'FUNDAMENTALS';
+export const PYTHON = 'PYTHON';
 const ICON_PATH = './src/images/icons/';
 const PROJECT_PATH = './src/images/projects/';
 
@@ -224,6 +225,94 @@ export const portifolio = {
       description:
         'Aplicativo de receitas, utilizando o ecossistema React: Hooks e Context API',
       type: FRONTEND,
+    },
+    {
+      name: 'Docker Todo List',
+      src: `${PROJECT_PATH}docker_todo.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-docker-to-do-list',
+      description:
+        'Aplicativo de tarefas conteinerizado com Docker para funcionar.',
+      type: BACKEND,
+    },
+    {
+      name: 'All For One',
+      src: `${PROJECT_PATH}all_for_one.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-mysql-all-for-one',
+      description:
+        'Projeto desenvolvido para praticar os conceitos de SQL usando o banco de dados Northwind.',
+      type: BACKEND,
+    },
+    {
+      name: 'One For All',
+      src: `${PROJECT_PATH}one_for_all.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-mysql-one-for-all',
+      description:
+        'Projeto desenvolvido para praticar normalização de planilhas e popular em um banco de dados sobre músicas.',
+      type: BACKEND,
+    },
+    {
+      name: 'Talker Manager',
+      src: `${PROJECT_PATH}talker.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-talker-manager',
+      description:
+        'Aplicação de cadastro de Palestrantes.',
+      type: BACKEND,
+    },
+    {
+      name: 'Store Manager',
+      src: `${PROJECT_PATH}store.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-store-manager',
+      description:
+        'API de um sistema de gerenciamento de vendas no formato dropshipping.',
+      type: BACKEND,
+    },
+    {
+      name: 'API de Blogs',
+      src: `${PROJECT_PATH}blogs_api.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-blogs-api',
+      description:
+        'API usando banco de dados para a produção de conteúdo de blogs.',
+      type: BACKEND,
+    },
+    {
+      name: 'Trybesmith',
+      src: `${PROJECT_PATH}trybesmith.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-trybesmith',
+      description:
+        'Aplicativo para loja de itens medievais no formato de uma API, utilizando Typescript e Sequelize.',
+      type: BACKEND,
+    },
+    {
+      name: 'Trybers and Dragons',
+      src: `${PROJECT_PATH}dragon.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-trybes-and-dragons',
+      description:
+        'Jogo de interpretação de papéis RPG - Role Playing Game, utilizando SOLID e POO.',
+      type: BACKEND,
+    },
+    {
+      name: 'Trybe Futebol Clube',
+      src: `${PROJECT_PATH}futebol.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-trybe-futebol-clube',
+      description:
+        'Back-end dockerizado utilizando modelagem de dados através do Sequelize.',
+      type: BACKEND,
+    },
+    {
+      name: 'Algorithms',
+      src: `${PROJECT_PATH}algorithms.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-algorithms',
+      description:
+        'Algoritmos desenvolvidos para resolver problemas e implementar soluções.',
+      type: PYTHON,
+    },
+    {
+      name: 'TING',
+      src: `${PROJECT_PATH}ting.jpg`,
+      link: 'https://github.com/marcosadrianoti/tb-ting',
+      description:
+        'Aplicativo que simula um algoritmo de indexação de documentos similar ao do Google.',
+      type: PYTHON,
     },
   ],
   contacts: [

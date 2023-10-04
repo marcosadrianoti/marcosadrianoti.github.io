@@ -1,4 +1,4 @@
-import { BACKEND, FRONTEND, ALL, portifolio } from '../data/portifolio.js';
+import { BACKEND, FRONTEND, ALL, portifolio, PYTHON } from '../data/portifolio.js';
 
 const {
   personal_info: { name_1, name_2, photo, alt },
@@ -99,7 +99,7 @@ skills.forEach(({ name, src, link }) => {
   icons.appendChild(iconLink);
 });
 
-// Funionamento da galeria
+// Funcionamento da galeria
 
 const fillGallery = (type) => {
   const { projects } = portifolio;
@@ -152,6 +152,10 @@ frontendProjects.addEventListener('click', () =>
 const backendProjects = document.getElementById(BACKEND);
 backendProjects.addEventListener('click', () =>
   fillGallery(backendProjects.value)
+);
+const pythonProjects = document.getElementById(PYTHON);
+pythonProjects.addEventListener('click', () =>
+  fillGallery(pythonProjects.value)
 );
 
 const controls = document.querySelectorAll('.control');
