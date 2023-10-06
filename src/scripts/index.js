@@ -66,12 +66,13 @@ const createParagraph = (p) => {
 };
 
 const {
-  article: { p_1, p_2, p_3 },
+  article: { p_1, p_2, p_3, p_4 },
 } = portifolio;
 
 createParagraph(p_1);
 createParagraph(p_2);
 createParagraph(p_3);
+createParagraph(p_4);
 
 // Inclui icons na seção habilidades
 
