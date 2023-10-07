@@ -1,4 +1,5 @@
-import { BACKEND, FRONTEND, ALL, portifolio, PYTHON } from '../data/portifolio.js';
+import { portifolio } from '../data/portifolio.js';
+import { BACKEND, FRONTEND, ALL, PYTHON } from '../data/projects.js';
 
 const {
   personal_info: { name_1, name_2, photo, alt },
