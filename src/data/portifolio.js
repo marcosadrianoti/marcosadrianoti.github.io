@@ -46,6 +46,11 @@ export const portifolio = {
       link: 'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript',
     },
     {
+      name: 'TypeScript',
+      src: `${ICON_PATH}typescript.svg`,
+      link: 'https://www.typescriptlang.org/',
+    },
+    {
       name: 'NodeJS',
       src: `${ICON_PATH}nodejs.svg`,
       link: 'https://nodejs.org/en/',
@@ -84,6 +89,66 @@ export const portifolio = {
       name: 'Jest',
       src: `${ICON_PATH}jest.svg`,
       link: 'https://jestjs.io/pt-BR/',
+    },
+    {
+      name: 'Beautiful Soup',
+      src: `${ICON_PATH}beautiful_soup.svg`,
+      link: 'https://beautiful-soup-4.readthedocs.io/en/latest/',
+    },
+    {
+      name: 'Django',
+      src: `${ICON_PATH}django.svg`,
+      link: 'https://www.djangoproject.com/',
+    },
+    {
+      name: 'Docker',
+      src: `${ICON_PATH}docker.svg`,
+      link: 'https://www.docker.com/',
+    },
+    {
+      name: 'Express',
+      src: `${ICON_PATH}express_js.svg`,
+      link: 'https://expressjs.com/',
+    },
+    {
+      name: 'Flask',
+      src: `${ICON_PATH}flask.svg`,
+      link: 'https://flask.palletsprojects.com/',
+    },
+    {
+      name: 'JWT',
+      src: `${ICON_PATH}jwt.svg`,
+      link: 'https://jwt.io/',
+    },
+    {
+      name: 'MongoDB',
+      src: `${ICON_PATH}mongodb.svg`,
+      link: 'https://www.mongodb.com/',
+    },
+    {
+      name: 'Python',
+      src: `${ICON_PATH}python.svg`,
+      link: 'https://www.python.org/',
+    },
+    {
+      name: 'RTL',
+      src: `${ICON_PATH}rtl.png`,
+      link: 'https://testing-library.com/',
+    },
+    {
+      name: 'Selenium',
+      src: `${ICON_PATH}selenium.svg`,
+      link: 'https://www.selenium.dev/',
+    },
+    {
+      name: 'Sequelize',
+      src: `${ICON_PATH}sequelize.svg`,
+      link: 'https://sequelize.org/',
+    },
+    {
+      name: 'SQL',
+      src: `${ICON_PATH}sql.svg`,
+      link: 'https://www.w3schools.com/sql/',
     },
     {
       name: 'VSCode',
