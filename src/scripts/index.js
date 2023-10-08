@@ -129,6 +129,9 @@ const createOptions = (op) => {
   radioInput.id = op;
   radioInput.name = 'projects';
   radioInput.value = op;
+  radioInput.addEventListener('click', () =>
+    fillGallery(op)
+  );
   if(op == FUNDAMENTALS) {
     radioInput.checked = true; 
   }
@@ -187,24 +190,6 @@ const fillGallery = (type) => {
   controlBtns[1].click();
 };
 
-// Refatorar até a linha a 206 para uma função
-const fundamentalsProjects = document.getElementById(FUNDAMENTALS);
-fundamentalsProjects.addEventListener('click', () =>
-  fillGallery(fundamentalsProjects.value)
-);
-const frontendProjects = document.getElementById(FRONTEND);
-frontendProjects.addEventListener('click', () =>
-  fillGallery(frontendProjects.value)
-);
-const backendProjects = document.getElementById(BACKEND);
-backendProjects.addEventListener('click', () =>
-  fillGallery(backendProjects.value)
-);
-const pythonProjects = document.getElementById(PYTHON);
-pythonProjects.addEventListener('click', () =>
-  fillGallery(pythonProjects.value)
-);
-
 const controls = document.querySelectorAll('.control');
 let currentItem = 0;
 let items = document.querySelectorAll('.item');
@@ -243,7 +228,7 @@ controls.forEach((control) => {
   });
 });
 
-// Contact
+// Cria os contatos
 
 const { contacts } = portifolio;
 
