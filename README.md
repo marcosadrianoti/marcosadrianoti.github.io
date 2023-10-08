@@ -11,6 +11,12 @@ Para isto a estrutura está dividida da seguinte forma:
 * Scripts - O código `JavaScript` se encontra na pasta `src/scripts`.
 * Estilos - O código `CSS` se encontra na pasta `src/styles`.
 
+Espero ter colaborado contigo!
+
+Estou sempre esperando qualquer feedback. :grinning:
+
+Divirta-se :tada:
+
 ## Para baixar o projeto:
 
 ### Fork
@@ -18,3 +24,5 @@ Para isto a estrutura está dividida da seguinte forma:
 Faça um `Fork` para pegar uma cópia para o seu próprio GitHub. Assim vc pode personalizar a vontade o seu Portfólio.
 
 ![Fork](src/images/fork.jpg)
+
+
