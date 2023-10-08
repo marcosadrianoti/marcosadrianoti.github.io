@@ -11,6 +11,10 @@ Para isto a estrutura está dividida da seguinte forma:
 * Scripts - O código `JavaScript` se encontra na pasta `src/scripts`.
 * Estilos - O código `CSS` se encontra na pasta `src/styles`.
 
-## Para baixar o projeto
+## Para baixar o projeto:
 
-![Tela](src/views/static/images/traduzo.png)
+### Fork
+
+Faça um `Fork` para pegar uma cópia para o seu próprio GitHub. Assim vc pode personalizar a vontade o seu Portfólio.
+
+![Fork](src/images/fork.jpg)
