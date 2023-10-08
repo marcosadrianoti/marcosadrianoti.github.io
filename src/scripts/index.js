@@ -1,5 +1,5 @@
 import { portifolio } from '../data/portifolio.js';
-import { BACKEND, FRONTEND, ALL, PYTHON } from '../data/projects.js';
+import { BACKEND, FRONTEND, ALL, PYTHON, FUNDAMENTALS } from '../data/projects.js';
 
 const {
   personal_info: { name_1, name_2, photo, alt },
@@ -101,17 +101,60 @@ skills.forEach(({ name, src, link }) => {
   icons.appendChild(iconLink);
 });
 
-// Funcionamento da galeria
+// Inclui as opções dos tipos de projetos
 
-const fillGallery = (type) => {
+const listOptions = {
+  ALL: 'Todos',
+  FUNDAMENTALS: 'Fundamentos',
+  FRONTEND: 'Front-End',
+  BACKEND: 'Back-End',
+  PYTHON: 'Python'
+}
+
+const getFilteredProjects = (type) => {
   const { projects } = portifolio;
   const filteredProjects =
     type !== ALL
       ? projects.filter((project) => project.type === type)
       : projects;
+  return filteredProjects;
+}
+
+const createOptions = (op) => {
+  const filteredProjects = getFilteredProjects(op);
+  const options = document.querySelector('.options');
+  const radioInput = document.createElement('input');
+  radioInput.type = 'radio';
+  radioInput.classList.add('option-input', 'radio');
+  radioInput.id = op;
+  radioInput.name = 'projects';
+  radioInput.value = op;
+  if(op == FUNDAMENTALS) {
+    radioInput.checked = true; 
+  }
+
+  const labelInput = document.createElement('label');
+  labelInput.htmlFor = op;
+  labelInput.appendChild(radioInput);
+  
+  const labelText = `${listOptions[op]}(${filteredProjects.length})`;
+  const textNode = document.createTextNode(labelText);
+  labelInput.appendChild(textNode);
+  options.appendChild(labelInput);
+}
+
+createOptions(FUNDAMENTALS);
+createOptions(FRONTEND);
+createOptions(BACKEND);
+createOptions(PYTHON);
+
+// Funcionamento da galeria
+
+const fillGallery = (type) => {
+  const filteredProjects = getFilteredProjects(type);
   const gallery = document.querySelector('.gallery');
   gallery.innerHTML = '';
-  //
+
   filteredProjects.forEach(({ name, src, description, link }, index) => {
     const linkProject = document.createElement('a');
     linkProject.href = link;
@@ -143,10 +186,12 @@ const fillGallery = (type) => {
   controlBtns[0].click();
   controlBtns[1].click();
 };
-//
 
-const allProjects = document.getElementById(ALL);
-allProjects.addEventListener('click', () => fillGallery(allProjects.value));
+// Refatorar até a linha a 206 para uma função
+const fundamentalsProjects = document.getElementById(FUNDAMENTALS);
+fundamentalsProjects.addEventListener('click', () =>
+  fillGallery(fundamentalsProjects.value)
+);
 const frontendProjects = document.getElementById(FRONTEND);
 frontendProjects.addEventListener('click', () =>
   fillGallery(frontendProjects.value)
@@ -164,7 +209,7 @@ const controls = document.querySelectorAll('.control');
 let currentItem = 0;
 let items = document.querySelectorAll('.item');
 let maxItems = items.length;
-fillGallery(ALL);
+fillGallery(FUNDAMENTALS);
 
 controls.forEach((control) => {
   control.addEventListener('click', (e) => {
